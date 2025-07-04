@@ -270,3 +270,72 @@ a
     text-decoration: none;
     color: #fff
 }
+.a-hamburger
+{
+    display: none;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px)
+{
+    .a-hamburger
+    {
+        display: block;
+        padding-left: 40px;
+    }
+    .a-head:hover .a-nav
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+    }
+    .a-nav li a
+    {
+        color: #0a2d3a;
+        font-weight: 700;
+    }
+    nav
+    {
+        display: none;
+    }
+    .ma
+    {
+        /*overflow-x: hidden;*/
+    }
+    .b
+    {
+        object-fit: contain;
+        background-position: center;
+        background-size: 100vw;
+    }
+    header
+    {
+        background: #7bb6cd;
+        height: 125px;
+    }
+    .b-cta
+    {
+        padding-left: 40px;
+    }
+    .c-featcard
+    {
+        flex-wrap: wrap;
+        width: 400px;
+    }
+    .c-featcard img
+    {
+        width: 100vw;
+        margin-left: -140px;
+    }
+    .d-testimonial
+    {
+        margin-left: -15px;
+    }
+    .d
+    {
+        height: max-content;
+    }
+}
